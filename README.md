@@ -1,13 +1,14 @@
 # Tp_sockets
 
-This is a simple Chat app which implements sockets.
-I've made following a tutorial on internet.
+#This is a simple Chat app which implements sockets.
+
+#I've made following a tutorial on internet.
 
 To run this chat you'll need node js to run the file test_server.js
 
 You can download here
 
-For window:
+For windows:
 ```
 https://nodejs.org/en/
 ```
