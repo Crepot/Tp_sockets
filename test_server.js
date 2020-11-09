@@ -19,11 +19,11 @@ io.on('connection', (socket) => {
     });
   });
 
-  io.on('connection', (socket) => {
-    socket.on('chat message', (msg) => {
-      io.emit('chat message', msg);
-    });
+io.on('connection', (socket) => {
+  socket.on('chat message', (msg) => {
+    io.emit('chat message', msg);
   });
+});
 
 server.listen(8080,function(){
     console.log('server listening on Localhost port 8080');
